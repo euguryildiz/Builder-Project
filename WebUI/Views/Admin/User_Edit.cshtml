@@ -1,0 +1,235 @@
+﻿@model Entities.Concrete.User
+@{
+    Dictionary<string, int> StatusList = ((Entities.Enums.Status[])Enum.GetValues(typeof(Entities.Enums.Status))).ToDictionary(k => k.ToString(), v => (int)v);
+
+}
+
+<div class="container-xxl flex-grow-1 container-p-y">
+    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Kullanıcı Yönetimi/Kullanıcılar/</span>Düzenleme</h4>
+
+    <!-- Basic Layout -->
+    <div class="row">
+        <div class="col-xl">
+            <div class="card mb-4">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Kullanıcı Düzenleme</h5>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-default-fullname">Ad</label>
+                                    <input type="text" class="form-control" asp-for="Name" placeholder="Ad" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-default-fullname">Soyad</label>
+                                    <input type="text" class="form-control" asp-for="Surname" placeholder="Soyad" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-default-fullname">Email</label>
+                                    <input type="text" class="form-control" asp-for="Email" placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-default">Doğum Tarihi</label>
+                                    <input type="date" class="form-control" asp-for="Birthday" placeholder="Doğum Tarihi" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-default-fullname">Firma Kodu</label>
+                                    <input type="text" class="form-control" asp-for="CompanyCode" placeholder="Firma Kodu" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-default-fullname">Firma</label>
+                                    <input type="text" class="form-control" asp-for="Company" placeholder="Firma" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="defaultSelect" class="form-label">Durum</label>
+                                    <select asp-for="IsActive" id="StatusOption" class="form-select">
+                                        <option>Seçiniz</option>
+                                        @foreach (var item in StatusList)
+                                        {
+                                            if (item.Value == Convert.ToInt32(Model?.IsActive))
+                                            {
+                                                <option selected value="@item.Value">@item.Key</option>
+                                            }
+                                            else
+                                            {
+                                                <option value="@item.Value">@item.Key</option>
+                                            }
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-default-fullname">Özel Kod 1</label>
+                                    <input type="text" class="form-control" asp-for="SpecialCode1" placeholder="Özel Kod 1" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-default-fullname">Özel Kod 2</label>
+                                    <input type="text" class="form-control" asp-for="SpecialCode2" placeholder="Özel Kod 2" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-default-fullname">Özel Kod 3</label>
+                                    <input type="text" class="form-control" asp-for="SpecialCode3" placeholder="Özel Kod 3" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-default-fullname">Kullanıcı Adı</label>
+                                    <input type="text" class="form-control" asp-for="Username" placeholder="Kullanıcı Adı" />
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-default-fullname">Şifre</label>
+                                    <input type="password" class="form-control" asp-for="Password" placeholder="Şifre" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-default-fullname">Telefon</label>
+                                    <input type="text" class="form-control" asp-for="Phone" placeholder="Telefon" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-default-fullname">Telefon Dahili</label>
+                                    <input type="text" class="form-control" asp-for="PhoneInternal" placeholder="Telefon Dahili" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-default-fullname">Cep Telefon</label>
+                                    <input type="text" class="form-control" asp-for="MobilePhone" placeholder="Cep Telefon" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="defaultSelect" class="form-label">Departman</label>
+                                    <select asp-for="DepartmentId" id="departmentOption" class="form-select">
+                                        <option>Seçiniz</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="defaultSelect" class="form-label">Ünvan</label>
+                                    <select asp-for="TitleId" id="titleOption" class="form-select">
+                                        <option>Seçiniz</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 dropload">
+                                <div class="mb-3">
+                                    <label for="defaultSelect" class="form-label" id="educationOptionLabel" >Eğitim</label>
+                                    <select onmouseover="GetGroupId(this,'1');" asp-for="EducationId" id="educationOption" class="form-select" icon="fa fa-refresh fa-spin">
+                                        <option>Seçiniz</option>
+                                    </select>
+                                    
+                                  
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <input type="hidden" asp-for="Id" />
+                        <input type="hidden" asp-for="CreatedDate" />
+                        <input type="hidden" asp-for="CreatedUserId" />
+                        <input type="hidden" asp-for="ModifiedDate" />
+                        <input type="hidden" asp-for="ModifiedUserId" />
+
+                        <button type="submit" class="btn btn-primary">Kaydet ve Güncelle</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section scripts {
+
+    <script>
+        $(document).ready(function () {
+
+          
+
+            @*$.post("@Url.Action("GetGroup", "Admin")?Id=1", function (data) {
+                if (data.success) {
+
+                    data.data.forEach(element => {
+                        $("#titleOption").append($('<option>', { value: element.id, text: element.title }));
+                    });
+
+                }
+            });
+
+            $.post("@Url.Action("GetGroup", "Admin")?Id=3", function (data) {
+                if (data.success) {
+
+                    data.data.forEach(element => {
+                        $("#educationOption").append($('<option>', { value: element.id, text: element.title }));
+                    });
+
+                }
+            });
+
+            $.post("@Url.Action("GetGroup", "Admin")?Id=2", function (data) {
+                if (data.success) {
+
+                    data.data.forEach(element => {
+                        $("#departmentOption").append($('<option>', { value: element.id, text: element.title }));
+                    });
+
+                }
+            });*@
+
+        });
+    </script>
+
+   
+
+}

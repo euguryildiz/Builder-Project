@@ -1,0 +1,10 @@
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/bin/Debug/netcoreapp3.1/Core.deps.json
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/bin/Debug/netcoreapp3.1/Core.dll
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/bin/Debug/netcoreapp3.1/Core.pdb
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/obj/Debug/netcoreapp3.1/Core.csproj.AssemblyReference.cache
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/obj/Debug/netcoreapp3.1/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/obj/Debug/netcoreapp3.1/Core.AssemblyInfoInputs.cache
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/obj/Debug/netcoreapp3.1/Core.AssemblyInfo.cs
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/obj/Debug/netcoreapp3.1/Core.csproj.CoreCompileInputs.cache
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/obj/Debug/netcoreapp3.1/Core.dll
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/obj/Debug/netcoreapp3.1/Core.pdb

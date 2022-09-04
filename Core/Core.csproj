@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Utilities\" />
+    <None Remove="Utilities\Result\" />
+    <None Remove="Entities\" />
+    <None Remove="DataAccess\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="Utilities\Hash\" />
+    <None Remove="CrossCuttingConcerns\" />
+    <None Remove="CrossCuttingConcerns\Validation\" />
+    <None Remove="FluentValidation" />
+    <None Remove="Utilities\Interceptors\" />
+    <None Remove="Autofac" />
+    <None Remove="Autofac.Extensions.DependencyInjection" />
+    <None Remove="Autofac.Extras.DynamicProxy" />
+    <None Remove="Aspects\" />
+    <None Remove="Aspects\Autofac\" />
+    <None Remove="Aspects\Autofac\Validation\" />
+    <None Remove="PagedList.Core" />
+    <None Remove="Utilities\Filter\" />
+    <None Remove="FrontEnd\" />
+    <None Remove="Microsoft.CodeAnalysis.CSharp" />
+    <None Remove="System.Data.Common" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utilities\" />
+    <Folder Include="Utilities\Result\" />
+    <Folder Include="Entities\" />
+    <Folder Include="DataAccess\" />
+    <Folder Include="Utilities\Hash\" />
+    <Folder Include="CrossCuttingConcerns\" />
+    <Folder Include="CrossCuttingConcerns\Validation\" />
+    <Folder Include="Utilities\Interceptors\" />
+    <Folder Include="Aspects\" />
+    <Folder Include="Aspects\Autofac\" />
+    <Folder Include="Aspects\Autofac\Validation\" />
+    <Folder Include="Utilities\Filter\" />
+    <Folder Include="FrontEnd\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.27" />
+    <PackageReference Include="FluentValidation" Version="11.1.0" />
+    <PackageReference Include="Autofac" Version="6.4.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.1" />
+    <PackageReference Include="PagedList.Core" Version="1.17.4" />
+    <PackageReference Include="System.Data.Common" Version="4.3.0" />
+  </ItemGroup>
+</Project>

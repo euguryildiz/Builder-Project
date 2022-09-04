@@ -1,0 +1,17 @@
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/bin/Debug/netcoreapp3.1/Business.deps.json
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/bin/Debug/netcoreapp3.1/Business.dll
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/bin/Debug/netcoreapp3.1/Business.pdb
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/bin/Debug/netcoreapp3.1/Core.dll
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/bin/Debug/netcoreapp3.1/DataAccess.dll
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/bin/Debug/netcoreapp3.1/Entities.dll
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/bin/Debug/netcoreapp3.1/Entities.pdb
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/bin/Debug/netcoreapp3.1/DataAccess.pdb
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/bin/Debug/netcoreapp3.1/Core.pdb
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/obj/Debug/netcoreapp3.1/Business.csproj.AssemblyReference.cache
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/obj/Debug/netcoreapp3.1/Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/obj/Debug/netcoreapp3.1/Business.AssemblyInfoInputs.cache
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/obj/Debug/netcoreapp3.1/Business.AssemblyInfo.cs
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/obj/Debug/netcoreapp3.1/Business.csproj.CoreCompileInputs.cache
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/obj/Debug/netcoreapp3.1/Business.csproj.CopyComplete
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/obj/Debug/netcoreapp3.1/Business.dll
+/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/obj/Debug/netcoreapp3.1/Business.pdb

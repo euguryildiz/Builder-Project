@@ -1,0 +1,64 @@
+﻿@model PagedList.Core.IPagedList<Entities.Concrete.User>
+
+<div class="container-xxl flex-grow-1 container-p-y">
+    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Kullanıcı Yönetimi /</span> Kullanıcılar</h4>
+    <div class="card">
+        <h5 class="card-header">Kullanıcılar</h5>
+        <div class="table-responsive text-nowrap">
+            <table class="table table-hover">
+                <caption class="ms-4">
+                    <div class="col-md-1o">
+                        <pager list="@Model" asp-controller="Admin" asp-action="Users" param-page-number="2" options="PagedList.Core.Mvc.PagedListRenderOptions.Bootstrap4PageNumbersOnly" />
+                    </div>
+                    <div class="col-md-2">
+                        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+                    </div>
+                </caption>
+                <thead>
+                    <tr>
+                        <th><strong>Ad</strong></th>
+                        <th><strong>Soyad</strong></th>
+                        <th><strong>Email</strong></th>
+                        <th><strong>Username</strong></th>
+                        <th><strong>Durum</strong></th>
+                        <th><strong></strong></th>
+
+                    </tr>
+                </thead>
+                <tbody class="table-border-bottom-0">
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Surname</td>
+                            <td>@item.Email</td>
+                            <td>@item.Username</td>
+                            <td>
+                                @if (item.IsActive)
+                                {
+                                    <span class="badge bg-label-primary me-1">Aktif</span>
+                                }
+                                else if (!item.IsActive)
+                                {
+                                    <span class="badge bg-label-warning me-1">Pasif</span>
+                                }
+                            </td>
+                            <td>
+                                <div class="dropdown">
+                                    <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <i class="bx bx-dots-vertical-rounded"></i>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="User_Edit/@item.Id"><i class="bx bx-edit-alt me-1"></i> Düzenle</a>
+                                        <a class="dropdown-item" href="User_Delete/@item.Id"><i class="bx bx-trash me-1"></i> Delete</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

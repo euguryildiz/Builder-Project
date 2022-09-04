@@ -1,0 +1,63 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{23F75069-6A41-4473-9E78-0D2D5E7900CB}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WebUI PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="WebUI/Controllers/AdminController.cs" Line="94" Column="1" />
+      <File FileName="Business/Concrete/GroupManager.cs" Line="19" Column="1" />
+      <File FileName="Business/Concrete/UserManager.cs" Line="44" Column="1" />
+      <File FileName="WebUI/Views/Admin/Users.cshtml" Line="65" Column="1" />
+      <File FileName="Business/Abstract/IUserService.cs" Line="18" Column="40" />
+      <File FileName="WebUI/Views/Shared/_Layout.cshtml" Line="34" Column="74" />
+      <File FileName="WebUI/Views/Admin/User_Edit.cshtml" Line="35" Column="51" />
+      <File FileName="DataAccess/Concrete/BuilderContext.cs" Line="37" Column="44" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DynamicBuilder" expanded="True">
+            <Node name="Business" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True" />
+              <Node name="DependencyResolvers" expanded="True">
+                <Node name="Autofac" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Core" expanded="True">
+              <Node name="DataAccess" expanded="True" />
+              <Node name="FrontEnd" expanded="True" />
+            </Node>
+            <Node name="DataAccess" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True" />
+            </Node>
+            <Node name="WebUI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Admin" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="img" expanded="True" />
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>parameter.Raw View</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/Concrete/UserManager.cs" relfile="Business/Concrete/UserManager.cs" line="157" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
