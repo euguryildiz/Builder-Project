@@ -407,14 +407,14 @@ namespace Core.DataAccess
                 //using (var reader = command.ExecuteReader())
                 //{
                 //    while (reader.Read())
+                //    {
+                //        var item = new TResult();
+                //        for (int i = 0; i < reader.FieldCount; i++)
                 //        {
-                //            var item = new TResult();
-                //            for (int i = 0; i < reader.FieldCount; i++)
+                //            var name = reader.GetName(i);
+                //            var property = properties.FirstOrDefault(a => a.Name == name);
+                //            if (property != null)
                 //            {
-                //                var name = reader.GetName(i);
-                //                var property = properties.FirstOrDefault(a => a.Name == name);
-                //                if (property != null)   
-                //                {
                 //                if (!reader.IsDBNull(i))
                 //                {
                 //                    Type convertTo = Nullable.GetUnderlyingType(property.PropertyType) ?? property.PropertyType;

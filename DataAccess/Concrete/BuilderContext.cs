@@ -19,7 +19,7 @@ namespace DataAccess.Concrete
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=;Database=;User Id=;Password=");
+            optionsBuilder.UseSqlServer(@"Server=SIROWN;Database=DynamicBuilder;Trusted_Connection=True;");
             optionsBuilder.UseLazyLoadingProxies(false);
         }
 

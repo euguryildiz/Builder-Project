@@ -15,3 +15,20 @@
 /Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/obj/Debug/netcoreapp3.1/Business.csproj.CopyComplete
 /Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/obj/Debug/netcoreapp3.1/Business.dll
 /Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/obj/Debug/netcoreapp3.1/Business.pdb
+C:\Users\UgurYildiz\Desktop\Builder-Project\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\UgurYildiz\Desktop\Builder-Project\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\UgurYildiz\Desktop\Builder-Project\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\UgurYildiz\Desktop\Builder-Project\Business\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\UgurYildiz\Desktop\Builder-Project\Business\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\UgurYildiz\Desktop\Builder-Project\Business\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\UgurYildiz\Desktop\Builder-Project\Business\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\UgurYildiz\Desktop\Builder-Project\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\UgurYildiz\Desktop\Builder-Project\Business\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\UgurYildiz\Desktop\Builder-Project\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\UgurYildiz\Desktop\Builder-Project\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UgurYildiz\Desktop\Builder-Project\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\UgurYildiz\Desktop\Builder-Project\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\UgurYildiz\Desktop\Builder-Project\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\UgurYildiz\Desktop\Builder-Project\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\UgurYildiz\Desktop\Builder-Project\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\UgurYildiz\Desktop\Builder-Project\Business\obj\Debug\netcoreapp3.1\Business.pdb

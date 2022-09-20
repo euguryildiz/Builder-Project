@@ -38,7 +38,8 @@ namespace Business.Concrete
         [ValidationAspect(typeof(UserValidator))]
         public IDataResult<User> AddUser(User user)
         {
-
+            _userDal.Add(user);
+            
             throw new NotImplementedException();
         }
 

@@ -89,6 +89,15 @@ namespace WebUI.Controllers
 
         }
 
+        [Authorize(Roles = "Admin"), HttpPost]
+        public async Task<IActionResult> User_Add(User user)
+        {
+            var result = _userService.AddUser(user);
+            return new JsonResult(result);
+
+        }
+
+
         [Authorize(Roles = "Admin"),HttpPost]
         public async Task<IActionResult> GetGroup(int Id)
         {

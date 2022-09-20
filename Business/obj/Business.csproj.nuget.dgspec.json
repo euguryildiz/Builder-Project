@@ -1,36 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/Business.csproj": {}
+    "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Business\\Business.csproj": {}
   },
   "projects": {
-    "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/Business.csproj": {
+    "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/Business.csproj",
+        "projectUniqueName": "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/Business.csproj",
-        "packagesPath": "/Users/uguryildiz/.nuget/packages/",
-        "outputPath": "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Business/obj/",
+        "projectPath": "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\UgurYildiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Business\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/uguryildiz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\UgurYildiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/DataAccess/DataAccess.csproj": {
-                "projectPath": "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/DataAccess/DataAccess.csproj"
+              "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\DataAccess\\DataAccess.csproj"
               },
-              "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Entities/Entities.csproj": {
-                "projectPath": "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Entities/Entities.csproj"
+              "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Entities\\Entities.csproj"
               }
             }
           }
@@ -69,41 +75,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/Core.csproj": {
+    "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/Core.csproj",
+        "projectUniqueName": "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/Core.csproj",
-        "packagesPath": "/Users/uguryildiz/.nuget/packages/",
-        "outputPath": "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/obj/",
+        "projectPath": "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\UgurYildiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/uguryildiz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\UgurYildiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -162,52 +164,48 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/DataAccess/DataAccess.csproj": {
+    "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/DataAccess/DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/DataAccess/DataAccess.csproj",
-        "packagesPath": "/Users/uguryildiz/.nuget/packages/",
-        "outputPath": "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/DataAccess/obj/",
+        "projectPath": "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\UgurYildiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/uguryildiz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\UgurYildiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/Core.csproj": {
-                "projectPath": "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/Core.csproj"
+              "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Core\\Core.csproj"
               },
-              "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Entities/Entities.csproj": {
-                "projectPath": "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Entities/Entities.csproj"
+              "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Entities\\Entities.csproj"
               }
             }
           }
@@ -252,49 +250,45 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Entities/Entities.csproj": {
+    "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Entities/Entities.csproj",
+        "projectUniqueName": "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Entities/Entities.csproj",
-        "packagesPath": "/Users/uguryildiz/.nuget/packages/",
-        "outputPath": "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Entities/obj/",
+        "projectPath": "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\UgurYildiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/uguryildiz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\UgurYildiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/Core.csproj": {
-                "projectPath": "/Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/Core.csproj"
+              "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\UgurYildiz\\Desktop\\Builder-Project\\Core\\Core.csproj"
               }
             }
           }
@@ -319,22 +313,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

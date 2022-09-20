@@ -8,3 +8,13 @@
 /Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/obj/Debug/netcoreapp3.1/Core.csproj.CoreCompileInputs.cache
 /Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/obj/Debug/netcoreapp3.1/Core.dll
 /Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Core/obj/Debug/netcoreapp3.1/Core.pdb
+C:\Users\UgurYildiz\Desktop\Builder-Project\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\UgurYildiz\Desktop\Builder-Project\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\UgurYildiz\Desktop\Builder-Project\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\UgurYildiz\Desktop\Builder-Project\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+C:\Users\UgurYildiz\Desktop\Builder-Project\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UgurYildiz\Desktop\Builder-Project\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\UgurYildiz\Desktop\Builder-Project\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\UgurYildiz\Desktop\Builder-Project\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\UgurYildiz\Desktop\Builder-Project\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\UgurYildiz\Desktop\Builder-Project\Core\obj\Debug\netcoreapp3.1\Core.pdb

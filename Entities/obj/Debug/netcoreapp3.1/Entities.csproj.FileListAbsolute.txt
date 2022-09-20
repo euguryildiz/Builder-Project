@@ -11,3 +11,16 @@
 /Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Entities/obj/Debug/netcoreapp3.1/Entities.csproj.CopyComplete
 /Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Entities/obj/Debug/netcoreapp3.1/Entities.dll
 /Users/uguryildiz/Desktop/Builder Project/DynamicBuilder/Entities/obj/Debug/netcoreapp3.1/Entities.pdb
+C:\Users\UgurYildiz\Desktop\Builder-Project\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\UgurYildiz\Desktop\Builder-Project\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\UgurYildiz\Desktop\Builder-Project\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\UgurYildiz\Desktop\Builder-Project\Entities\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\UgurYildiz\Desktop\Builder-Project\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\UgurYildiz\Desktop\Builder-Project\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+C:\Users\UgurYildiz\Desktop\Builder-Project\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UgurYildiz\Desktop\Builder-Project\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\UgurYildiz\Desktop\Builder-Project\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\UgurYildiz\Desktop\Builder-Project\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\UgurYildiz\Desktop\Builder-Project\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
+C:\Users\UgurYildiz\Desktop\Builder-Project\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\UgurYildiz\Desktop\Builder-Project\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
